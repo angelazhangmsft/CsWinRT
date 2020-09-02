@@ -36,7 +36,7 @@ However, C#/WinRT is a general effort and is intended to support other scenarios
 
 Download the C#/WinRT NuGet package here: <http://aka.ms/cswinrt/nuget>
 
-Please see [usage](USAGE.md) for details on running the C#/WinRT tool. For additional documentation visit <http://aka.ms/cswinrt>.
+Please see [usage](docs/USAGE.md) for details on running the C#/WinRT tool. For additional documentation visit <http://aka.ms/cswinrt>.
 
 ## Building C#/WinRT
 
@@ -57,7 +57,7 @@ After a successful command-line build, the cswinrt.sln can be launched from the 
 
 **Note:** When building the first time, the build clones the testwinrt project. The build depends on this project, but msbuild doesn't consistently pick up the change when the repo is first cloned repo. You may need to build a second time if this is your first build to address the timing issue.
 
-Please see the [repository structure](STRUCTURE.md) for a detailed breakdown on the repo contents.
+Please see the [repository structure](docs/STRUCTURE.md) for a detailed breakdown on the repo contents.
 
 ## Related Projects
 
