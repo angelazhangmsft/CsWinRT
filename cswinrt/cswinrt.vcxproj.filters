@@ -13,7 +13,6 @@
     <ClInclude Include="text_writer.h" />
     <ClInclude Include="cmd_reader.h" />
     <ClInclude Include="task_group.h" />
-    <ClInclude Include="$(IntDir)strings.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="version.rc" />
